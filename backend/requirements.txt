@@ -1,0 +1,6 @@
+#flask
+psycopg2
+uwsgi
+Flask
+Flask-Migrate
+Flask-SQLAlchemy
