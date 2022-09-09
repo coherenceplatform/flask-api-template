@@ -4,7 +4,7 @@ backend:
   url_path: /
   repo_path: backend
   migration: ["migrate_db.sh"]
-  dev: ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
+  dev: ["python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=$PORT"]
   prod: ["./entrypoint.sh"]
 
 
